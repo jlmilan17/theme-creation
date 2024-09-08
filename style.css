@@ -321,6 +321,67 @@ header .left-header a:hover {
   margin-top: 8px;
 }
 
+.contact-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 98%;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.contact-container img{
+  width: 50%;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+.contact-container #main-form{
+  width: 50%;
+}
+.contact-container #main-form h3{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.form-info{
+  position: relative; 
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.form-info label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-info input,
+.form-info textarea{
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px;
+  border: 2px solid #989898;
+  border-radius: 10px;
+  outline: none;
+}
+
+.contact-container #main-form button{
+  width: 75%;
+  padding: 15px;
+  margin-left: 125px;
+  border: none;
+  border-radius: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-container #main-form button:hover{
+  background-color: #414040d4;
+}
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -420,6 +481,14 @@ footer .rigth-footer p {
     font-size: 35px;
   }
 
+  .sell {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sell .item {
+    width: 48%;
+  }
+
   .sell .item .item-header i {
     font-size: 35px;
   }
@@ -446,6 +515,9 @@ footer .rigth-footer p {
   }
   .reviews .clients-reviews .client {
     width: 48%;
+  }
+  .contact-container #main-form button{
+    margin-left: 60px;
   }
   footer .links a {
     font-size: 15px;
@@ -481,6 +553,9 @@ footer .rigth-footer p {
 
   .reviews .clients-reviews {
     gap: 20px;
+  }
+  .contact-container #main-form button{
+    margin-left: 55px;
   }
 
   footer {
@@ -544,6 +619,17 @@ footer .rigth-footer p {
     width: 100%;
     height: auto;
     gap: 20px;
+  }
+
+  .contact-container img{
+    display: none;
+  }
+  .contact-container #main-form{
+    width: 100%;
+  }
+
+  .contact-container #main-form button{
+    margin-left: 70px;
   }
 
   footer {
