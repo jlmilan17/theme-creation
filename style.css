@@ -16,7 +16,7 @@ img {
   object-fit: cover;
 }
 body {
-  background-color: #f1f1f1;
+  background: linear-gradient(150deg, #f9f9f9, #d5d5d5, #b1b2b2);
 }
 nav {
   padding: 0 80px;
