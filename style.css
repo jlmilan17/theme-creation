@@ -83,10 +83,15 @@ nav .login button.signup {
   padding: 10px;
 }
 
-nav .links a:hover {
+nav .links a:hover,
+nav .login button:hover {
   color: #777;
 }
 
+nav .login button.signup:hover{
+    background-color: #414040d4;
+    color: #ffffff;
+}
 header {
   padding: 0 80px;
   height: calc(100vh - 80px);
